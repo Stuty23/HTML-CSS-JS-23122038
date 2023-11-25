@@ -1,0 +1,53 @@
+h3{
+    color: green;
+}
+.h4{
+    color: violet;
+}
+
+#h5{
+    color: yellow;
+}
+
+.ptag{
+    background-color: yellow;
+    color: red;
+    border: 1px double blue;
+}
+
+.background{
+    background-color: #E5674C;
+    opacity: 0.5;
+    background-image: url('../thor.jpg');
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    height: 540px;
+}
+.background2{
+    height: 540px;
+    background: #ffffff url('../thor.jpg') no-repeat center ;
+}
+.text{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 30px;
+    font-weight: bold;
+    text-align:  center;
+    text-transform: uppercase;
+}
+
+.link{
+    text-decoration: none;
+    color: red;
+}
+.link:visited{
+    color: pink;
+
+}
+.link:hover{
+    background-color: blue;
+}
+.link:active{
+    background-color: greenyellow;
+}

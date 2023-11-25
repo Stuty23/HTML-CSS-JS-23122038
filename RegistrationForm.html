@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrationform</title>
+</head>
+<body>
+    <form action="">
+        <center><b><u>Registration Form</u></b></center>
+        <br>
+        <table align="center" border="4" cellpadding="10">
+            <tr>
+               <td colspan="2"><label for="firstname">First Name</label></td>
+                <td colspan="3"><input type="text" name="firstname" placeholder="Enter firstname"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><label for="lastname">Last Name</label></td>
+                <td colspan="3"><input type="text" name="lastname" placeholder="Enter lastname" ></td>
+            </tr>
+            <tr>
+                <td colspan="2"><label for="gender">Gender</label></td>
+                <td colspan="3">
+                    <input type="radio" name="gender" value="male">Male
+                    <input type="radio" name="gender" value="female">Female
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"><label for="dob">DOB</label></td>
+                <td colspan="3"><input type="date" name="dob"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><label for="qualification">Qualification</label></td>
+                <td colspan="3">
+                    <input type="checkbox" name="qualification" value="mca">MCA
+                    <input type="checkbox" name="qualification" value="mba">MBA
+                    <input type="checkbox" name="qualification" value="mtech">MTECH
+                    <input type="checkbox" name="qualification" value="other">Other
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"><label for="contact">Contact</label></td>
+                <td colspan="3"><input type="number" name="contact"></td>
+            </tr>
+            <tr>
+            <td colspan="2"><label for="email">Email</label></td>
+            <td colspan="3"><input type="email" name="email" placeholder="@gmail.com"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><label for="address">Address</label></td>
+                <td colspan="3"><textarea name="address" placeholder="enter your address"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2"><label for="select">Select Department</label></td>
+                <td colspan="3">
+                    <select name="select">
+                        <option value="">Select</option>
+                        <option value="">Msc DS</option>
+                        <option value="">BA LLB</option>
+                        <option value="">Msc EA</option>
+                        <option value="">Bcom</option>
+                        <option value="">Bsc</option>
+                </td>
+            </tr>
+            <tr style="text-align: center;">
+                <td colspan="5"><input type="button" value="Register">
+                <input type="submit" value="button"></td>
+            </tr>
+        </table>
+
+        <br>
+            <center><b><u>Login Form</u></b></center>
+            <br>
+            <table align="center" border="4" cellpadding="10">
+            <tr>
+                <td colspan="2"><label for="username">Usernameame</td>
+                <td colspan="3"><input type="text" name="username"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><label for="password">Password</td>
+                <td colspan="3"><input type="password" name="password"></td>
+            </tr>
+        </table>
+    </form>
+            
+</body>
+</html>

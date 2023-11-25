@@ -1,0 +1,103 @@
+.box-border{
+    background-color: blue;
+    height: 100px;
+}
+.box{
+    background-color: red;
+    border: 5px solid black;
+    /*padding: 10px;
+    padding-left: 10px;*/
+    /*padding:10px 5px 20px 30px;*/
+    padding:10px 5px 20px;  /* Here 10px is top value, 5px is left and right value and 20px is value*/
+    margin: 10px;
+    /*margin-left: 10px;*/
+}
+
+.display-span{
+    background-color: blue;
+    color: #ffffff;
+    /*display: none;*/
+    display: block; /* display block is used to make whole block color */
+}
+
+.display{
+    background-color: red;
+    color: #ffffff;
+    display: inline; /* display inline is used to color only the text element place*/
+    position: absolute;
+    /*z-index: 1;*/
+}
+
+.image{
+    position: absolute;
+    left: 0px;
+    top: 150px;
+    z-index: -1;
+}
+
+.position{
+    position: relative;
+    background-color: rgb(156, 228, 156);
+    top:100px;
+    left: 30px;
+    border: 3px solid red;
+}
+
+.fixed{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: blue;
+    width: 500px;
+    border: 5px solid greenyellow;
+}
+
+.relative{
+    position: relative;
+    width:400px;
+    height: 300px;
+    border: 5px solid #73AD21
+}
+
+.absolute{
+    position: absolute;
+    top:80px;
+    right: 0;
+    width:200px;
+    height: 100px;
+    border: 5px solid black
+}
+
+.sticky{
+    position: -webkit-sticky;
+    position: sticky;
+    top:0;
+    bottom: 0;
+    padding: 5px;
+    background-color: #cae8ca;
+    border: 2px solid #4CAF50;
+
+}
+
+
+/* Flexbox */
+
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #cae8ca;
+}
+
+.one{
+    background-color: #4CAF50;
+}
+
+.two{
+    background-color: blue;
+}
+
+.three{
+    background-color: red;
+}

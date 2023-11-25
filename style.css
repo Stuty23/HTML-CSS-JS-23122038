@@ -1,0 +1,58 @@
+h1{
+    color: aquamarine;
+}
+
+.temp{
+    color: blueviolet;
+}
+
+#min{
+    color:brown
+}
+
+.ptag{
+    background-color: burlywood;
+    color: brown;
+    border: 1px dotted blue;
+}
+
+.background{
+    background-color: cadetblue;
+    opacity: 0.5;
+    background-image: url('../Landscape-Color.jpg');
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    height: 540px;
+}
+
+.background2{
+    height: 540px;
+    background: #ffffff url('../Landscape-Color') no-repeat;
+}
+
+.text{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.link{
+    text-decoration: none;
+    color: red;
+}
+
+.link:visited{
+    color: pink;
+}
+.link:hover{
+    background-color: blue;
+}
+.link:active{
+    background-color: greenyellow;
+}
+
+
